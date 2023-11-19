@@ -1,0 +1,20 @@
+.filterForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.filterLabel {
+    font-weight: 500;
+}
+
+.inputField {
+    margin-left: 10px;
+    border: 2px solid #ADCFFF;
+    border-radius: 20px;
+}
+
+.inputField:hover,
+.inputField:focus {
+    border: 2px solid #FF6314;
+}

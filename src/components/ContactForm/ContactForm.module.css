@@ -1,0 +1,62 @@
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: #ADCFFF 0 -1px 8px inset;
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;    
+}
+
+.inputLabel {
+font-weight: 500;
+}
+
+.inputField {
+    border: 2px solid #ADCFFF;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.inputField:hover,
+.inputField:focus {
+    border: 2px solid #FF6314;
+}
+
+.addBtn {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 150px;
+}
+
+.addBtn:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+.addBtn:active {
+    transform: scale(1.025);
+}
