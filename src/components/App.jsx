@@ -42,6 +42,10 @@ const App = () => {
     }));
   };
 
+  useEffect(() => {
+    localStorage.setItem('contacts', JSON.stringify(state.contacts));
+  }, [state.contacts]);
+
   const filteredContacts = state.contacts.filter(contact =>
     contact.name.toLowerCase().includes(state.filter.toLowerCase())
   );
