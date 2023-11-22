@@ -2,16 +2,12 @@ import React, { Component } from 'react';
 import styles from './ContactForm.module.css';
 
 class ContactForm extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      contact: {
-        name: '',
-        number: '',
-      },
-    };
-  }
+  state = {
+    contact: {
+      name: '',
+      number: '',
+    },
+  };
 
   handleChange = e => {
     const { name, value } = e.target;
